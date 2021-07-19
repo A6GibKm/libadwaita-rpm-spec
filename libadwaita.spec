@@ -1,6 +1,8 @@
+%define tag     alpha.1
+
 Name:       libadwaita
 Version:    1.0.0
-Release:    1%{?dist}
+Release:    %{tag}%{?dist}
 Summary:    Building blocks for modern GNOME applications
 License:        GPLv2+
 URL:            https://gitlab.gnome.org/GNOME/libadwaita.git
@@ -15,8 +17,6 @@ BuildRequires:  cmake
 BuildRequires:  gcc-c++
 BuildRequires:  gobject-introspection-devel
 Buildrequires:  vala
-
-%define tag     alpha.1
 
 Source0:        https://gitlab.gnome.org/GNOME/libadwaita/-/archive/%{version}-%{tag}/%{name}-%{version}-%{tag}.tar.gz
 
