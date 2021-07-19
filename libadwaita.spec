@@ -1,7 +1,7 @@
 Name:       libadwaita
 Version:    1.0.0
 Release:    1%{?dist}
-Summary:    library to help with developing UI for mobile devices using GNOME.
+Summary:    Building blocks for modern GNOME applications
 License:        GPLv2+
 URL:            https://gitlab.gnome.org/GNOME/libadwaita.git
 Requires:       gtk4
