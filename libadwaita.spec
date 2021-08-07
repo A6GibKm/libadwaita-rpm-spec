@@ -1,4 +1,4 @@
-%define tag     alpha.2
+%define tag     alpha.3
 
 Name:       libadwaita
 Version:    1.0.0
@@ -18,7 +18,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  gobject-introspection-devel
 Buildrequires:  vala
 
-Source0:        https://gitlab.gnome.org/GNOME/libadwaita/-/archive/%{version}-%{tag}/%{name}-%{version}-%{tag}.tar.gz
+Source0:        https://download.gnome.org/sources/%{name}/1.0/%{name}-%{version}.%{tag}.tar.xz
 
 %package devel
 Summary:        Development files for %{name}
@@ -31,7 +31,7 @@ The %{name}-devel package contains header files for developing addons for %{name
 Building blocks for modern GNOME applications
 
 %prep
-%autosetup -n %{name}-%{version}-%{tag} -p1
+%autosetup -n %{name}-%{version}.%{tag} -p1
 
 %build
 %meson -Dgtk_doc=false -Dexamples=false -Dtests=true
