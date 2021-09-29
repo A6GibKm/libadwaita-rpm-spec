@@ -50,6 +50,8 @@ Building blocks for modern GNOME applications
 %{_includedir}/libadwaita-1/
 %{_libdir}/libadwaita-1.so
 %{_libdir}/pkgconfig/libadwaita-1.pc
+%{_libdir}/gtk-4.0/inspector/libadwaita-inspector-module1.so
+%{_libdir}/gtk-4.0/inspector/libadwaita-inspector-module1.so.0
 
 %{_datadir}/gir-1.0/Adw-1.gir
 %{_datadir}/vala/
