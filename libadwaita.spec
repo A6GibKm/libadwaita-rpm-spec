@@ -1,4 +1,4 @@
-%define tag     alpha.3
+%define tag     alpha.4
 
 Name:       libadwaita
 Version:    1.0.0
